@@ -30,7 +30,21 @@ export default {
       {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'},
       {test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000'},
       {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},
-      {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'}
+      {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'},
+			{test: /\.png$/, loader: 'file?name=/images/[name].[ext]'},
+			{
+				// ASSET LOADER
+				// Reference: https://github.com/webpack/file-loader
+				// Copy png, jpg, jpeg, gif, svg, woff, woff2, ttf, eot files to output
+				// Rename the file using the asset hash
+				// Pass along the updated reference to your code
+				// You can add here any file extension you want to get copied to your output
+				test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
+				// include: [
+				// 	`${nodeModules}/angular-ui-grid`,
+				// ],
+				loader: 'file?name=/images/[name].[ext]',
+			},
     ]
   }
 };

@@ -5,6 +5,7 @@ const Project = ({project}) => {
     <div class="project-container">
       <h1>{project.title}</h1>
 			<div>{project.sitelink}</div>
+			<img src={project.image.src} alt="" className="project-img"/>
 			<div>{project.githublink}</div>
 			<div>{project.description}</div>
 			<div>{project.technologies}</div>

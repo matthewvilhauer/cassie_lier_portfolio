@@ -21,7 +21,7 @@ class ProjectsPage extends React.Component {
   }
 }
 
-function mapStateToProps(state, ownProps) {
+function mapStateToProps(state) {
   return {
     projects: state.projects
   };
