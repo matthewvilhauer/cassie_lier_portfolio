@@ -4,12 +4,17 @@
   color: #4d4d4d;
   max-width: 1100px;
   margin: 0 auto;
+	position: relative;
 }
 a.active {
-  color: orange;
+  color: #FF5722;
 }
 a.focus {
-	color: orange;
+	color: #FF5722;
+}
+.sidebar-container {
+	position: fixed;
+	left: 20px;
 }
 .project-container {
 	padding-bottom: 20px;
@@ -37,5 +42,5 @@ a.focus {
 	margin-bottom: 20px;
 }
 .about-header {
-	text-align: cente;
+	text-align: center;
 }
