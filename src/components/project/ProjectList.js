@@ -3,7 +3,7 @@ import Project from './Project';
 
 const ProjectList = ({projects}) => {
   return (
-    <div className="row">
+    <div className="project-list-container">
 			{projects.map(project =>
         <Project key={project.id} project={project}/>
       )}

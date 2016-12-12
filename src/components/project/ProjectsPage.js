@@ -14,7 +14,7 @@ class ProjectsPage extends React.Component {
 
     return (
       <div>
-        <h1>Projects</h1>
+        <h1 className="projects-page-header">Projects</h1>
         <ProjectList projects={projects}/>
       </div>
     );
