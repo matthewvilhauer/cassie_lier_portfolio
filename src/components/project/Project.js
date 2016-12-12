@@ -8,7 +8,7 @@ const Project = ({project}) => {
 			</div>
 			<div className="project-header">
 				<a href={project.githublink} target='_blank'>
-					<i className="social-media-icon fa fa-lg fa-github github"></i>
+					<i className="social-media-icon fa fa-2x fa-github github"></i>
 				</a>
 			</div>
 			<img src={project.image.src} alt="" className="project-img"/>

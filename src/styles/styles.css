@@ -14,7 +14,7 @@ a.focus {
 }
 .sidebar-container {
 	position: fixed;
-	left: 20px;
+	float: left;
 }
 .project-container {
 	padding-bottom: 20px;
@@ -44,3 +44,17 @@ a.focus {
 .about-header {
 	text-align: center;
 }
+.contact-header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.social-media-icons {
+	text-align: center;
+}
+.social-media-icon:hover {
+	color: #FF5722;
+}
+.smi-spacing {
+	padding-right: 30px;
+}
+
