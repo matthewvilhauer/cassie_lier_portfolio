@@ -7,7 +7,7 @@ const Sidebar = () => {
 				<h1>Matthew Vilhauer</h1>
 				<h3><IndexLink to="/" activeClassName="active">Projects</IndexLink></h3>
 				<h3><Link to="/about" activeClassName="active">About</Link></h3>
-				<h3><Link to="/about" activeClassName="active">Contact</Link></h3>
+				<h3><Link to="/contact" activeClassName="active">Contact</Link></h3>
 		</div>
   );
 };
