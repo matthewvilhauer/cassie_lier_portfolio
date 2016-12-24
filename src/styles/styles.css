@@ -57,4 +57,26 @@ a.focus {
 .smi-spacing {
 	padding-right: 30px;
 }
+.page-container {
+	padding: 80px;
+	border: 2px solid rgba(185, 185, 185, 0.73);
+	margin-top: 80px;
+}
+.logo {
+	width: 300px;
+}
+.top-heading {
+	text-align: center;
+}
+.nav-link-container {
+	padding-top: 20px;
+	text-align: center;
+}
+.nav-link {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
+.logo-name {
+	margin-top: 0px;
+}
