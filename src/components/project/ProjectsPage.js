@@ -13,8 +13,7 @@ class ProjectsPage extends React.Component {
     const {projects} = this.props;
 
     return (
-      <div>
-        <h1 className="projects-page-header">Projects</h1>
+      <div className="project-list-container">
         <ProjectList projects={projects}/>
       </div>
     );
