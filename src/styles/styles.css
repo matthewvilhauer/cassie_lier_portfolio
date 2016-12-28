@@ -1,16 +1,30 @@
 /* Styles */
+@font-face {
+    font-family: BELLABOO;
+	  src: local("BELLABOO"),
+  	local("BELLABOO"),
+  	url('./fonts/BELLABOO-regular.ttf');
+    font-weight:400;
+}
+
 #app {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "BELLABOO", Helvetica, Arial, sans-serif;
   color: #4d4d4d;
   max-width: 1100px;
   margin: 0 auto;
 	position: relative;
 }
+
+a {
+	font-family: "BELLABOO";
+	color: #6d8891;
+}
 a.active {
-  color: #FF5722;
+  color: black;
+	text-decoration: underline #D3D3D3;
 }
 a.focus {
-	color: #FF5722;
+	color: black;
 }
 .sidebar-container {
 	position: fixed;
@@ -58,8 +72,10 @@ a.focus {
 	padding-right: 30px;
 }
 .page-container {
-	padding: 80px;
-	border: 2px solid rgba(185, 185, 185, 0.73);
+	padding-top: 60px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border: 2px solid #D3D3D3;
 	margin-top: 80px;
 }
 .logo {
@@ -75,6 +91,7 @@ a.focus {
 .nav-link {
 	padding-left: 5px;
 	padding-right: 5px;
+	color: #6d8891;
 }
 
 .logo-name {
