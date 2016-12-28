@@ -2,12 +2,13 @@ import React, {PropTypes} from 'react';
 
 const Project = ({project}) => {
   return (
-    <div className="project-container">
-      <div className="project-header">
-				<h2 className="project-title">{project.title}</h2>
+    <div className="project-container col-md-4 col-sm-6">
+			<div className="img-container">
+				<img src={project.images[0].src} alt="" className="project-img"/>
 			</div>
-			<img src={project.images[0].src} alt="" className="project-img"/>
-			<div className="description">{project.description}</div>
+      <div className="project-header">
+				<h4 className="project-title">{project.title}</h4>
+			</div>
     </div>
   );
 };

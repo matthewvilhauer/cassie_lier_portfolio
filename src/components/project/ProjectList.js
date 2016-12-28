@@ -4,9 +4,9 @@ import Project from './Project';
 const ProjectList = ({projects}) => {
   return (
     <div className="project-list-container">
-			{projects.map(project =>
-        <Project key={project.id} project={project}/>
-      )}
+				{projects.map(project =>
+					<Project key={project.id} project={project}/>
+				)}
 		</div>
   );
 };
