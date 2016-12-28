@@ -6,7 +6,7 @@ class AboutPage extends React.Component {
     return (
       <div className="about-container">
         <h1 className="about-header">About</h1>
-				<p class="about-me-paragraph">
+				<p className="about-me-paragraph">
 					Cassie's About Me goes here.
 				</p>
       </div>
