@@ -11,6 +11,10 @@ const ContactPage = () => {
 					<a href="https://www.facebook.com/cassielierart/" target="_blank">
 						<i className="social-media-icon smi-spacing fa fa-3x fa-facebook-square" aria-hidden="true"></i>
 					</a>
+					<a href="http://cassielierart.tumblr.com/" target="_blank">
+						<i className="social-media-icon smi-spacing fa fa-3x fa-tumblr-square" aria-hidden="true"></i>
+					</a>
+					<i class="fa fa-tumblr-square" aria-hidden="true"></i>
 				</div>
 		</div>
   );

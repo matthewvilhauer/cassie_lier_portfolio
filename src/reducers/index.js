@@ -3,6 +3,7 @@ import courses from './courseReducer';
 import authors from './authorReducer';
 import projects from './projectReducer';
 import illustrations from './illustrationReducer';
+import posters from './posterReducer';
 import ajaxCallsInProgress from './ajaxStatusReducer';
 
 const rootReducer = combineReducers({
@@ -10,6 +11,7 @@ const rootReducer = combineReducers({
   authors,
 	projects,
 	illustrations,
+	posters,
   ajaxCallsInProgress
 });
 

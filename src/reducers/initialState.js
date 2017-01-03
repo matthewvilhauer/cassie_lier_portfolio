@@ -150,5 +150,33 @@ export default {
 			description: 'Showbills designed for The Schooley Mountain Band'
 		}
 	],
+	posters: [
+		{
+			id: 8,
+			title: 'Schooley Mountain Band at Arlene\'s',
+			images: [
+				{
+					src: '/images/schooley_arlene.jpg',
+					name: 'Showbill 1'
+				},
+				{
+					src: '/images/schooley_arlenes.png',
+					name: 'Showbill 2'
+				},
+			],
+			description: 'Showbills designed for The Schooley Mountain Band'
+		},
+		{
+			id: 9,
+			title: 'Ghost in the Mirror',
+			images: [
+				{
+					src: '/images/ghost_in_the_mirror.jpg',
+					name: 'Showbill 1'
+				}
+			],
+			description: 'Part of the ghost story illustration series'
+		}
+	],
 	ajaxCallsInProgress: 0
 };
