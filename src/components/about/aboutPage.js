@@ -5,9 +5,15 @@ class AboutPage extends React.Component {
   render() {
     return (
       <div className="about-container">
-        <h1 className="about-header">About</h1>
+        <h2 className="about-header">About</h2>
 				<p className="about-me-paragraph">
-					Cassie's About Me goes here.
+					Hi, I'm Cassie and these are my artistic endeavors!
+				</p>
+				<p className="about-me-paragraph">
+					Illustration, Graphic Design, 3D Modeling.
+				</p>
+				<p className="about-me-paragraph">
+					I'm currently a graduate student at SCAD.
 				</p>
       </div>
     );

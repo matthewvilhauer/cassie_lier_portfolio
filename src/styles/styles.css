@@ -9,6 +9,7 @@
 
 #app {
   font-family: "BELLABOO", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
   color: #4d4d4d;
   max-width: 1100px;
   margin: 0 auto;
@@ -17,6 +18,7 @@
 
 a {
 	font-family: "BELLABOO";
+	letter-spacing: 1px;
 	color: #6d8891;
 }
 a.active {
@@ -29,12 +31,94 @@ a.focus {
 .page-container {
 	padding-top: 40px;
 }
+
+/*
+Nav Header
+*/
+.logo {
+	width: 300px;
+}
+.logo-name {
+	margin-top: 0px;
+}
+.top-heading {
+	text-align: center;
+}
+.nav-link-container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.nav-link {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #6d8891;
+}
+
+/*
+Illustrations
+*/
+.illustration-container {
+	padding-bottom: 60px;
+	height: 300px;
+}
+.illustration-list-container {
+	padding-top: 30px;
+}
+.illustration-img {
+	height: 100%;
+	width: 100%;
+	border: 1px solid #f4f4f4;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.illustration-img:hover {
+	opacity: .5;
+}
+.illustration-title {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*
+Posters
+*/
+.poster-container {
+	padding-bottom: 60px;
+	height: 300px;
+}
+.poster-list-container {
+	padding-top: 30px;
+}
+.poster-img {
+	height: 100%;
+	width: 100%;
+	border: 1px solid #f4f4f4;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.poster-img:hover {
+	opacity: .5;
+}
+.poster-title {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*
+Projects
+*/
 .project-container {
 	padding-bottom: 60px;
 	height: 300px;
 }
-.img-container {
-	height: 100%;
+.project-list-container {
+	padding-top: 30px;
 }
 .project-img {
 	height: 100%;
@@ -47,17 +131,30 @@ a.focus {
 .project-img:hover {
 	opacity: .5;
 }
+.img-container {
+	height: 100%;
+}
 .project-title {
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.description {
-	padding-bottom: 10px;
-}
+
+/*
+About Me
+*/
 .about-header {
 	text-align: center;
+	padding-bottom: 20px;
 }
+.about-me-paragraph {
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*
+Contact
+*/
 .contact-header {
 	text-align: center;
 	padding-bottom: 20px;
@@ -68,25 +165,3 @@ a.focus {
 .smi-spacing {
 	 padding-right: 30px;
  }
-.logo {
-	width: 300px;
-}
-.top-heading {
-	text-align: center;
-}
-.nav-link-container {
-	padding-top: 40px;
-	text-align: center;
-}
-.nav-link {
-	padding-left: 5px;
-	padding-right: 5px;
-	color: #6d8891;
-}
-
-.logo-name {
-	margin-top: 0px;
-}
-.project-list-container {
-	padding-top: 30px;
-}
