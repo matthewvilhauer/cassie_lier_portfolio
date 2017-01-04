@@ -11,7 +11,7 @@
   font-family: "BELLABOO", Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
   color: #4d4d4d;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 	position: relative;
 }
@@ -31,7 +31,17 @@ a.focus {
 .page-container {
 	padding-top: 40px;
 }
+.container-fluid {
+	margin-top: 40px;
+	min-height: 100vh;
+}
 
+@media (min-width: 1200px) {
+	.container-fluid {
+		border: 2px solid #BDBDBD;
+		margin-top: 40px;
+	}
+}
 /*
 Nav Header
 */
@@ -74,7 +84,7 @@ Illustrations
 	transition: .3s ease-in-out;
 }
 .illustration-img:hover {
-	opacity: .5;
+	opacity: .7;
 }
 .illustration-title {
 	text-align: center;
@@ -101,7 +111,7 @@ Posters
 	transition: .3s ease-in-out;
 }
 .poster-img:hover {
-	opacity: .5;
+	opacity: .7;
 }
 .poster-title {
 	text-align: center;
@@ -129,7 +139,7 @@ Projects
 	transition: .3s ease-in-out;
 }
 .project-img:hover {
-	opacity: .5;
+	opacity: .7;
 }
 .img-container {
 	height: 100%;
