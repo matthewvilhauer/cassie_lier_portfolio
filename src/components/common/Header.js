@@ -6,7 +6,7 @@ const Header = () => {
     <div>
 			<div className="top-heading">
 				<img className="logo" src="/images/crane_drawing.jpg" alt=""/>
-				<h2 className="logo-name">Cassie Lier</h2>
+				<h1 className="logo-name">Cassie Lier</h1>
 			</div>
 			<div className="nav-link-container">
 				<IndexLink to="/" className="nav-link" activeClassName="active">Illustrations</IndexLink>

@@ -33,6 +33,8 @@ a.focus {
 }
 .container-fluid {
 	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
 	min-height: 100vh;
 }
 
@@ -165,13 +167,40 @@ About Me
 /*
 Contact
 */
+.contact-form-container {
+	padding-top: 20px;
+}
 .contact-header {
 	text-align: center;
+	margin-top: 0px;
 	padding-bottom: 20px;
 }
 .social-media-icons {
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 .smi-spacing {
-	 padding-right: 30px;
- }
+	padding-left: 5px;
+	padding-right: 5px;
+}
+input {
+	width: 100%;
+}
+.label-container {
+	text-align: left;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+}
+.form-row {
+	padding-top: 20px;
+}
+.name-col {
+	width: 50%;
+	display: inline-block;
+}
+.name-col-spacing {
+	padding-right: 5px;
+}
