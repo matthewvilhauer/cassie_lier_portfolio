@@ -15,6 +15,7 @@ export default {
 					name: '3D Fox 2 of 4'
 				},
 			],
+			thumbnail: '/thumbnails/3d_fox_1_of_4.jpg',
 			description: '3D images designed with Maya'
 		},
 		{
@@ -43,7 +44,7 @@ export default {
 			],
 			description: 'Part of the ghost story illustration series'
 		},
-				{
+		{
 			id: 4,
 			title: 'Phonograph',
 			images: [
@@ -76,7 +77,7 @@ export default {
 			],
 			description: 'T-shirt designed for the 7th annual Pink Moon Festival.'
 		},
-				{
+		{
 			id: 7,
 			title: '3D Fox',
 			images: [
@@ -152,31 +153,82 @@ export default {
 	],
 	posters: [
 		{
-			id: 8,
-			title: 'Schooley Mountain Band at Arlene\'s',
+			id: 1,
+			title: 'Schooley at Arlene\'s - Spring 2016',
 			images: [
 				{
-					src: '/images/schooley_arlene.jpg',
-					name: 'Showbill 1'
-				},
-				{
-					src: '/images/schooley_arlenes.png',
-					name: 'Showbill 2'
-				},
-			],
-			description: 'Showbills designed for The Schooley Mountain Band'
-		},
-		{
-			id: 9,
-			title: 'Ghost in the Mirror',
-			images: [
-				{
-					src: '/images/ghost_in_the_mirror.jpg',
+					src: '/images/schooley_arlenes.jpg',
 					name: 'Showbill 1'
 				}
 			],
-			description: 'Part of the ghost story illustration series'
-		}
+			description: 'Showbill designed for The Schooley Mountain Band at Arelene\'s on May 6th, 2016.'
+		},
+		{
+			id: 2,
+			title: 'Schooley Mountain Band at Arlene\'s - Summer 2016',
+			images: [
+				{
+					src: '/images/schooley_arlene.jpg',
+					name: 'Showbill 2'
+				}
+			],
+			description: 'Showbill designed for The Schooley Mountain Band at Arelene\'s on July 29th, 2016.'
+		},
+		{
+			id: 3,
+			title: 'Southern Belles - Fall Tour 2016',
+			images: [
+				{
+					src: '/images/southern_belles_fall_2016.jpg',
+					name: 'Southern Belles - Fall Tour 2016'
+				}
+			],
+			description: 'Showbill designed for The Southern Belles Fall 2016 tour.'
+		},
+		{
+			id: 4,
+			title: 'Damn Tall Buildings & Red Light Rodeo - Fall 2016',
+			images: [
+				{
+					src: '/images/jet_trails_media.jpg',
+					name: 'Damn Tall Buildings & Red Light Rodeo - August 20th, 2016'
+				}
+			],
+			description: 'Showbill designed for Jet Trails Media show.'
+		},
+		{
+			id: 5,
+			title: 'Litz, Moogatu, & Microwaves - Fall 2016',
+			images: [
+				{
+					src: '/images/litz_moogatu.jpg',
+					name: 'Litz, Moogatu, & Microwaves - November 12th, 2016'
+				}
+			],
+			description: 'Showbill designed for Jet Trails Media show.'
+		},
+		{
+			id: 6,
+			title: 'Denizen Release Show - Winter 2017',
+			images: [
+				{
+					src: '/images/schooley_denizen.jpg',
+					name: 'Denizen, Schooley Mountain Band, and Femur - January 28th, 2017'
+				}
+			],
+			description: 'Showbill designed for Denizen Release Show featuring The SChooley Mountain Band and Femur.'
+		},
+		{
+			id: 7,
+			title: 'Schooley Mountain Band at Arlene\'s - January 2017',
+			images: [
+				{
+					src: '/images/schooley_jouwala.jpg',
+					name: 'Schooley Mountain Band at Arlene\'s - January 6th, 2017'
+				}
+			],
+			description: 'Showbill designed for Schooley Mountain Band Show at Arelene\'s on January 6th, 2017.'
+		},
 	],
 	ajaxCallsInProgress: 0
 };
