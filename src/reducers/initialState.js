@@ -4,19 +4,19 @@ export default {
 	projects: [
 		{
 			id: 1,
-			title: 'threeD Fox',
+			title: 'model Fox',
 			images: [
 				{
 					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'threeD Fox 1 of 4'
+					name: 'model Fox 1 of 4'
 				},
 				{
 					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'threeD Fox 2 of 4'
+					name: 'model Fox 2 of 4'
 				},
 			],
 			thumbnail: '/thumbnails/3d_fox_1_of_4.jpg',
-			description: 'threeD images designed with Maya'
+			description: 'model images designed with Maya'
 		},
 		{
 			id: 2,
@@ -79,18 +79,18 @@ export default {
 		},
 		{
 			id: 7,
-			title: 'threeD Fox',
+			title: 'model Fox',
 			images: [
 				{
 					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'threeD Fox 1 of 4'
+					name: 'model Fox 1 of 4'
 				},
 				{
 					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'threeD Fox 2 of 4'
+					name: 'model Fox 2 of 4'
 				},
 			],
-			description: 'threeD images designed with Maya'
+			description: 'model images designed with Maya'
 		},
 		{
 			id: 8,
@@ -119,22 +119,22 @@ export default {
 			description: 'Part of the ghost story illustration series'
 		}
 	],
-	threeD_projects: [
+	models: [
 		{
 			id: 1,
-			title: 'threeD Fox',
+			title: 'model Fox',
 			images: [
 				{
 					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'threeD Fox 1 of 4'
+					name: 'model Fox 1 of 4'
 				},
 				{
 					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'threeD Fox 2 of 4'
+					name: 'model Fox 2 of 4'
 				},
 			],
 			thumbnail: '/thumbnails/3d_fox_1_of_4.jpg',
-			description: 'threeD images designed with Maya'
+			description: 'model images designed with Maya'
 		},
 		{
 			id: 2,
@@ -197,18 +197,18 @@ export default {
 		},
 		{
 			id: 7,
-			title: 'threeD Fox',
+			title: 'model Fox',
 			images: [
 				{
 					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'threeD Fox 1 of 4'
+					name: 'model Fox 1 of 4'
 				},
 				{
 					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'threeD Fox 2 of 4'
+					name: 'model Fox 2 of 4'
 				},
 			],
-			description: 'threeD images designed with Maya'
+			description: 'model images designed with Maya'
 		},
 		{
 			id: 8,
@@ -240,18 +240,18 @@ export default {
 	illustrations: [
 		{
 			id: 1,
-			title: 'threeD Fox',
+			title: 'model Fox',
 			images: [
 				{
 					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'threeD Fox 1 of 4'
+					name: 'model Fox 1 of 4'
 				},
 				{
 					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'threeD Fox 2 of 4'
+					name: 'model Fox 2 of 4'
 				},
 			],
-			description: 'threeD images designed with Maya'
+			description: 'model images designed with Maya'
 		},
 		{
 			id: 2,
