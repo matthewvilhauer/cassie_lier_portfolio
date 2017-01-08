@@ -4,7 +4,7 @@ import authors from './authorReducer';
 import projects from './projectReducer';
 import illustrations from './illustrationReducer';
 import posters from './posterReducer';
-import threeD_projects from './threeDReducer';
+import models from './modelReducer';
 import ajaxCallsInProgress from './ajaxStatusReducer';
 
 const rootReducer = combineReducers({
@@ -13,7 +13,7 @@ const rootReducer = combineReducers({
 	projects,
 	illustrations,
 	posters,
-	threeD_projects,
+	models,
   ajaxCallsInProgress
 });
 

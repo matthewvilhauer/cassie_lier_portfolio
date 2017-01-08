@@ -1,10 +1,10 @@
 import * as types from '../actions/actionTypes';
 import initialState from './initialState';
 
-export default function threeDReducer(state = initialState.threeD_projects, action) {
+export default function modelReducer(state = initialState.models, action) {
   switch (action.type) {
-    case types.LOAD_3D_PROJECTS:
-      return action.threeD_projects;
+    case types.LOAD_MODELS:
+      return action.models;
 
     default:
       return state;
