@@ -13,6 +13,7 @@
 		"clean-dist": "npm run remove-dist && mkdir dist",
 		"remove-dist": "node_modules/.bin/rimraf ./dist",
 		"build:html": "babel-node tools/buildHtml.js",
+		//Need to figure out how to add lint to prebuild script without throwing an error
 		"prebuild": "npm-run-all clean-dist test build:html",
 		"build": "babel-node tools/build.js",
 		"postbuild": "babel-node tools/distServer.js"
