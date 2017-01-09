@@ -347,6 +347,5 @@ export default {
 			],
 			description: 'Showbill designed for Schooley Mountain Band Show at Arelene\'s on January 6th, 2017.'
 		},
-	],
-	ajaxCallsInProgress: 0
+	]
 };
