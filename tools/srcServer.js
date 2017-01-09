@@ -1,10 +1,10 @@
+/* eslint-disable no-console */
+
 import express from 'express';
 import webpack from 'webpack';
 import path from 'path';
 import config from '../webpack.config.dev';
 import open from 'open';
-
-/* eslint-disable no-console */
 
 const port = 3000;
 const app = express();
@@ -14,8 +14,8 @@ app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
 }));
-
 app.use(require('webpack-hot-middleware')(compiler));
+
 app.use(express.static(path.join(__dirname, '../public')));
 app.get('*', function(req, res) {
 	console.log('request', req.path);
