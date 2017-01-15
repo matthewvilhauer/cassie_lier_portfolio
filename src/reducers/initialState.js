@@ -123,118 +123,80 @@ export default {
 		{
 			id: 1,
 			title: 'model Fox',
+			pages: ['projects', 'posters'],
 			images: [
 				{
-					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'model Fox 1 of 4'
+					id: 1,
+					src: 'images/3d_fox_1_of_4.jpg',
+					thumbnail: 'images/3d_fox_1_of_4.jpg',
+					srcset: [
+						'images/3d_fox_1_of_4.jpg',
+					],
+					caption: 'Test',
+					isPreviewImage: true,
 				},
 				{
-					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'model Fox 2 of 4'
+					id: 2,
+					src: 'images/3d_fox_2_of_4.jpg',
+					thumbnail: 'images/3d_fox_2_of_4.jpg',
+					srcset: [
+						'images/3d_fox_2_of_4.jpg',
+					],
+					caption: 'Test',
+					isPreviewImage: false,
 				},
+				{
+					id: 3,
+					src: 'images/3d_fox_3_of_4.jpg',
+					thumbnail: 'images/3d_fox_3_of_4.jpg',
+					srcset: [
+						'images/3d_fox_3_of_4.jpg',
+					],
+					caption: 'Test',
+					isPreviewImage: false,
+				}
 			],
 			thumbnail: '/thumbnails/3d_fox_1_of_4.jpg',
 			description: 'model images designed with Maya'
 		},
 		{
 			id: 2,
-			title: 'Schooley Mountain Band at Arlene\'s',
+			title: 'model Fox2',
+			pages: ['projects', 'illustrations'],
 			images: [
 				{
-					src: '/images/schooley_arlene.jpg',
-					name: 'Showbill 1'
+					id: 1,
+					src: 'images/3d_fox_1_of_4.jpg',
+					thumbnail: 'images/3d_fox_1_of_4.jpg',
+					srcset: [
+						'images/3d_fox_1_of_4.jpg',
+					],
+					caption: 'Test',
+					isPreviewImage: true,
 				},
 				{
-					src: '/images/schooley_arlenes.png',
-					name: 'Showbill 2'
-				},
-			],
-			description: 'Showbills designed for The Schooley Mountain Band'
-		},
-		{
-			id: 3,
-			title: 'Ghost in the Mirror',
-			images: [
-				{
-					src: '/images/ghost_in_the_mirror.jpg',
-					name: 'Showbill 1'
-				}
-			],
-			description: 'Part of the ghost story illustration series'
-		},
-		{
-			id: 4,
-			title: 'Phonograph',
-			images: [
-				{
-					src: '/images/phonograph.jpg',
-					name: 'Phonograph'
-				}
-			],
-			description: '...'
-		},
-		{
-			id: 5,
-			title: 'Maya Fishbowl',
-			images: [
-				{
-					src: '/images/maya_2016.jpg',
-					name: 'Maya Fishbowl'
-				}
-			],
-			description: 'Designed with Maya'
-		},
-		{
-			id: 6,
-			title: 'Pink Moon T-shirt',
-			images: [
-				{
-					src: '/images/pink_moon_tshirt.jpg',
-					name: 'Pink Moon T-shirt'
-				}
-			],
-			description: 'T-shirt designed for the 7th annual Pink Moon Festival.'
-		},
-		{
-			id: 7,
-			title: 'model Fox',
-			images: [
-				{
-					src: '/images/3d_fox_1_of_4.jpg',
-					name: 'model Fox 1 of 4'
+					id: 2,
+					src: 'images/3d_fox_2_of_4.jpg',
+					thumbnail: 'images/3d_fox_2_of_4.jpg',
+					srcset: [
+						'images/3d_fox_2_of_4.jpg',
+					],
+					caption: 'Test',
+					isPreviewImage: false,
 				},
 				{
-					src: '/images/3d_fox_2_of_4.jpg',
-					name: 'model Fox 2 of 4'
-				},
+					id: 3,
+					src: 'images/3d_fox_3_of_4.jpg',
+					thumbnail: 'images/3d_fox_3_of_4.jpg',
+					srcset: [
+						'images/3d_fox_3_of_4.jpg',
+					],
+					caption: 'Test',
+					isPreviewImage: false,
+				}
 			],
+			thumbnail: '/thumbnails/3d_fox_1_of_4.jpg',
 			description: 'model images designed with Maya'
-		},
-		{
-			id: 8,
-			title: 'Schooley Mountain Band at Arlene\'s',
-			images: [
-				{
-					src: '/images/schooley_arlene.jpg',
-					name: 'Showbill 1'
-				},
-				{
-					src: '/images/schooley_arlenes.png',
-					name: 'Showbill 2'
-				},
-			],
-			description: 'Showbills designed for The Schooley Mountain Band'
-		},
-		{
-			id: 9,
-			title: 'Ghost in the Mirror',
-			images: [
-				{
-					src: '/images/ghost_in_the_mirror.jpg',
-					name: 'Showbill 1'
-				}
-			],
-			description: 'Part of the ghost story illustration series'
 		}
 	],
 	illustrations: [
@@ -347,5 +309,17 @@ export default {
 			],
 			description: 'Showbill designed for Schooley Mountain Band Show at Arelene\'s on January 6th, 2017.'
 		},
-	]
+	],
+	lightboxIsOpen: true
 };
+
+// images: [
+// 				{
+// 					src: '/images/3d_fox_1_of_4.jpg',
+// 					thumbnail: '/images/3d_fox_1_of_4.jpg'
+// 				},
+// 				{
+// 					src: '/images/3d_fox_1_of_4.jpg',
+// 					thumbnail: '/images/3d_fox_1_of_4.jpg'
+// 				},
+// 			],
