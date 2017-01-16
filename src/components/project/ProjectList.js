@@ -20,7 +20,7 @@ const ProjectList = ({projects}) => {
 };
 
 ProjectList.propTypes = {
-  models: PropTypes.array.isRequired
+  projects: PropTypes.array.isRequired
 };
 
 export default ProjectList;
